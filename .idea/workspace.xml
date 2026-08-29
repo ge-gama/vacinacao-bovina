@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40977893-5d18-4255-8cd6-dce6aa5108f8" name="Changes" comment="Criadas as classes dos ropositories e services">
+    <list default="true" id="40977893-5d18-4255-8cd6-dce6aa5108f8" name="Changes" comment="Criadas as telas da interface e o main.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/formulario_animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/formulario_animal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/tela_alertas.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/tela_acompanhamento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/tela_animais.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/tela_inicial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +76,22 @@
       <option name="project" value="LOCAL" />
       <updated>1788008676285</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Criadas as telas da interface e o main.py">
+      <option name="closed" value="true" />
+      <created>1788022539697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1788022539697</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Estrutura do projeto criada (pastas e arquivos)" />
     <MESSAGE value="Criadas as classes models + database.py" />
     <MESSAGE value="Criadas as classes dos ropositories e services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criadas as classes dos ropositories e services" />
+    <MESSAGE value="Criadas as telas da interface e o main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criadas as telas da interface e o main.py" />
   </component>
 </project>

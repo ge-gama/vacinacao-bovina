@@ -51,19 +51,20 @@ def main(page: ft.Page):
             return
 
         try:
-            data_nascimento = datetime.strptime(data_str, "%Y-%m-%d").date()
+            datetime.strptime(data_str, "%Y-%m-%d")
         except ValueError:
             mostrar_snack("Data inválida!")
             return
 
-        animal = Animal(
-            nome=nome.strip(),
-            data_nascimento=data_nascimento,
-            sexo=sexo,
-            aplicacoes={}
-        )
-
         try:
+            animal = Animal(
+                id=None,
+                nome=nome.strip(),
+                data_nascimento=data_str,
+                sexo=sexo,
+                aplicacoes={}
+            )
+
             AnimalRepository.salvar(animal)
             lista_animais.append(animal)
             gerenciador.calcular_todos()
