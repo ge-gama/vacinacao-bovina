@@ -1,0 +1,16 @@
+[project]
+name = "vacinacao-bovina"
+version = "1.0.0"
+description = "Sistema de Controle de Vacinação Bovina"
+requires-python = ">=3.9"
+
+dependencies = [
+    "flet",
+]
+
+[tool.flet]
+org = "com.gabriel"
+product = "VacinacaoBovina"
+
+[tool.flet.android]
+split_per_abi = false
