@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40977893-5d18-4255-8cd6-dce6aa5108f8" name="Changes" comment="Estrutura do projeto criada (pastas e arquivos)">
+    <list default="true" id="40977893-5d18-4255-8cd6-dce6aa5108f8" name="Changes" comment="Criadas as classes models + database.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/animal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/b19.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/b19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/clostridioses.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/clostridioses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/leptospirose.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/leptospirose.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/periodo_vacinacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/periodo_vacinacao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/raiva.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/raiva.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/rb51.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/rb51.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/vacina.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/vacina.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositories/animal_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/animal_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositories/vacina_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/vacina_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/gerenciador_alertas.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/gerenciador_alertas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +61,20 @@
       <option name="project" value="LOCAL" />
       <updated>1788003191347</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criadas as classes models + database.py">
+      <option name="closed" value="true" />
+      <created>1788006919063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788006919063</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Estrutura do projeto criada (pastas e arquivos)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estrutura do projeto criada (pastas e arquivos)" />
+    <MESSAGE value="Criadas as classes models + database.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criadas as classes models + database.py" />
   </component>
 </project>
