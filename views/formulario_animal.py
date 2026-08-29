@@ -104,5 +104,5 @@ def formulario_animal(page, on_salvar, on_voltar):
         horizontal_alignment=ft.CrossAxisAlignment.CENTER,
     )
 
-    page.add(conteudo)
+    page.add(ft.SafeArea(content=conteudo))
     page.update()

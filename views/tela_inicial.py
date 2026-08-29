@@ -38,5 +38,5 @@ def tela_inicial(page, on_cadastrar, on_acompanhar):
         horizontal_alignment=ft.CrossAxisAlignment.CENTER,
     )
 
-    page.add(conteudo)
+    page.add(ft.SafeArea(content=conteudo))
     page.update()

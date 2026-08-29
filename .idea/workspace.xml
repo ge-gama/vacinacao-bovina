@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40977893-5d18-4255-8cd6-dce6aa5108f8" name="Changes" comment="Adiciona pyproject.toml">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+    <list default="true" id="40977893-5d18-4255-8cd6-dce6aa5108f8" name="Changes" comment="mudança no build.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/formulario_animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/formulario_animal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/tela_acompanhamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/tela_acompanhamento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/tela_inicial.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/tela_inicial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788039817332</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="mudança no build.yml">
+      <option name="closed" value="true" />
+      <created>1788040271202</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1788040271202</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +142,7 @@
     <MESSAGE value="App pronto e funcionando, só falta o build" />
     <MESSAGE value="Adiciona workflow" />
     <MESSAGE value="Adiciona pyproject.toml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona pyproject.toml" />
+    <MESSAGE value="mudança no build.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="mudança no build.yml" />
   </component>
 </project>

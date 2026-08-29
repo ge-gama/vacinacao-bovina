@@ -231,5 +231,5 @@ def tela_acompanhamento(page, lista_animais, dicionario, on_aplicar, on_excluir,
         expand=True,
     )
 
-    page.add(conteudo)
+    page.add(ft.SafeArea(content=conteudo))
     page.update()
