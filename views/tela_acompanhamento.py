@@ -35,7 +35,6 @@ def tela_acompanhamento(page, lista_animais, dicionario, on_aplicar, on_excluir,
         page.update()
         return
 
-    # --- Funções de diálogo de confirmação ---
     def abrir_dialog_aplicar(animal_ref, vacina_ref):
         def on_sim(e):
             page.pop_dialog()
@@ -76,7 +75,6 @@ def tela_acompanhamento(page, lista_animais, dicionario, on_aplicar, on_excluir,
         )
         page.show_dialog(dialog)
 
-    # --- Lista de animais ---
     animais_widgets = []
 
     for animal in lista_animais:
