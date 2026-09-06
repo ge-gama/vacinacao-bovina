@@ -10,24 +10,19 @@ from views.formulario_animal import formulario_animal
 from views.tela_acompanhamento import tela_acompanhamento
 
 def main(page: ft.Page):
-    # 1. Inicializar banco de dados
     inicializar_banco()
 
-    # 2. Carregar dados na memória
     lista_vacinas = VacinaRepository.buscar_todos()
     lista_animais = AnimalRepository.buscar_todos()
 
-    # 3. Criar gerenciador e calcular períodos
     gerenciador = GerenciadorAlertas(lista_animais, lista_vacinas)
     gerenciador.calcular_todos()
 
-    # 4. Helper para SnackBar
     def mostrar_snack(mensagem):
         page.snack_bar = ft.SnackBar(ft.Text(mensagem))
         page.snack_bar.open = True
         page.update()
 
-    # 5. Funções de navegação
     def ir_tela_inicial():
         tela_inicial(page, ir_cadastrar, ir_acompanhar)
 
@@ -40,7 +35,6 @@ def main(page: ft.Page):
             on_aplicar, on_excluir, ir_tela_inicial
         )
 
-    # 6. Callback: Salvar animal
     def on_salvar(nome, data_str, sexo):
         if not nome or not nome.strip():
             mostrar_snack("Nome é obrigatório!")
@@ -73,13 +67,11 @@ def main(page: ft.Page):
         except Exception as e:
             mostrar_snack(f"Erro ao salvar: {e}")
 
-    # 7. Callback: Aplicar vacina
     def on_aplicar(animal, vacina):
         gerenciador.marcar_aplicada(animal, vacina)
         ir_acompanhar()
         mostrar_snack(f"Vacina {vacina.nome} aplicada em {animal.nome}!")
 
-    # 8. Callback: Excluir animal
     def on_excluir(animal):
         try:
             AnimalRepository.excluir(animal.id)
@@ -90,7 +82,6 @@ def main(page: ft.Page):
         except Exception as e:
             mostrar_snack(f"Erro ao excluir: {e}")
 
-    # 9. Iniciar
     ir_tela_inicial()
 
 ft.run(main)
